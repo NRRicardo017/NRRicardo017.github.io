@@ -1,4 +1,57 @@
 body {
 
-    background-color: aqua;
+    background-color: rgb(202, 212, 212);
+    padding: 0;
+    margin: 0;
+
+}
+
+/*menu*/
+
+.menu { 
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 16, 124);
+    overflow: hidden;
+    
+
+}
+
+.menu li {
+
+    float: left;
+
+}
+
+ li a {
+
+    border: 1px solid black;
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+/*hover*/
+
+a:hover {
+    background-color: burlywood;
+
+
+}
+
+.contenido {
+padding-left: 15px;
+/*
+background-color: antiquewhite;
+*/
+}
+
+.active {
+
+    border: 2px solid darkgray;
 }
